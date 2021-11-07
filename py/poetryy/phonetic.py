@@ -26,7 +26,7 @@ from transcriptor_models.stress_model.stress_model import StressModel
 
 import rusyllab
 
-from poetry.corpus_analyser import CorpusWords
+from poetryy.corpus_analyser import CorpusWords
 
 
 class Accents:
@@ -181,7 +181,6 @@ class Accents:
 
     def after_loading(self, stress_model_dir):
         self.stemmer = RussianStemmer()
-        #self.stress_model = StressModel.load()
         self.stress_model = StressModel(stress_model_dir)
         self.predicted_accents = dict()
 
@@ -688,7 +687,7 @@ def rhymed(accents, word1, ud_tags1, word2, ud_tags2):
 
 
 if __name__ == '__main__':
-    data_folder = '../../data/poetry/dict'
+    data_folder = '../../data/poetryy/dict'
     tmp_dir = '../../tmp'
 
     e = extract_ending_vc('мама')

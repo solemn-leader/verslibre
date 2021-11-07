@@ -13,7 +13,7 @@ import fasttext
 
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-from poetry.phonetic import Accents, rhymed
+from poetryy.phonetic import Accents, rhymed
 
 
 def ngrams(s, n):

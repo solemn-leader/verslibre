@@ -3,8 +3,7 @@ import json
 import pathlib
 
 import numpy as np
-import keras
-
+from tensorflow import keras
 
 class StressModel:
     def __init__(self, model_dir):
@@ -15,7 +14,7 @@ class StressModel:
             cfg = json.load(f)
             self.max_len = cfg['max_len']
             self.char2index = cfg['char2index']
-
+        
         self.model = keras.models.load_model(os.path.join(model_dir, 'nn_stress.model'))
         self.X = np.zeros((1, self.max_len), dtype=np.int)
 

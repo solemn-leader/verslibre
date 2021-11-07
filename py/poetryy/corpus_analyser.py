@@ -18,9 +18,9 @@ import os
 import logging
 
 from rutokenizer import Tokenizer
-from poetry.poetry_template import PoetryTemplate
-from poetry.utils import decode_pos
-import poetry.template_tokenizer
+from poetryy.poetry_template import PoetryTemplate
+from poetryy.utils import decode_pos
+import poetryy.template_tokenizer
 
 
 def iter_files(root_folder, filename_mask):
