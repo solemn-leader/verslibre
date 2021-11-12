@@ -18,8 +18,8 @@ import os
 import logging
 
 from rutokenizer import Tokenizer
-from poetryy.poetry_template import PoetryTemplate
-from poetryy.utils import decode_pos
+from py.poetryy.poetry_template import PoetryTemplate
+from py.poetryy.utils import decode_pos
 import poetryy.template_tokenizer
 
 

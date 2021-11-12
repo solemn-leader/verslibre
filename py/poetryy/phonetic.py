@@ -21,12 +21,11 @@ import re
 
 from nltk.stem.snowball import RussianStemmer
 
-#from russ.stress.model import StressModel
-from transcriptor_models.stress_model.stress_model import StressModel
+from py.transcriptor_models.stress_model.stress_model import StressModel
 
 import rusyllab
 
-from poetryy.corpus_analyser import CorpusWords
+from py.poetryy.corpus_analyser import CorpusWords
 
 
 class Accents:

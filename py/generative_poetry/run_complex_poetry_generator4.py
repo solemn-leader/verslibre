@@ -24,7 +24,7 @@ import rutokenizer
 import ruword2tags
 #import transcriber
 
-from poetry.phonetic import Accents, rhymed
+from py.poetryy.phonetic import Accents, rhymed
 from select_rhymed_words import RhymeSelector
 from rugpt_generator import RugptGenerator
 from antiplagiat import Antiplagiat

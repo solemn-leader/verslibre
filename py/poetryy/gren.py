@@ -15,8 +15,8 @@ import logging
 
 import networkx
 
-from poetry.utils import decode_pos
-from poetry.corpus_analyser import CorpusWords
+from py.poetryy.utils import decode_pos
+from py.poetryy.corpus_analyser import CorpusWords
 
 
 class Word2Lemmas(object):
